@@ -1,0 +1,38 @@
+.SecondNavbar {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px;
+    position:sticky;
+    z-index: 1000;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .navbar-left ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+  
+  .navbar-left ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-left li:hover {
+    color: #6a0dad;
+  }
+  
+  .navbar-left ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    object-fit: contain;
+  }
